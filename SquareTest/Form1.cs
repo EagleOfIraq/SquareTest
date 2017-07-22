@@ -40,7 +40,6 @@ namespace SquareTest
         private void Form1_Load(object sender, EventArgs e)
         {
             users = userObject.getItems();
-            MessageBox.Show(users.Count + " s");
 
             if (users.Count<1)
             {
